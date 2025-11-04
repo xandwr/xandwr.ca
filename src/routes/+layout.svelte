@@ -1,4 +1,5 @@
 <script lang="ts">
+	import "../app.css";
 	import favicon from '$lib/assets/favicon.svg';
 
 	let { children } = $props();
@@ -9,4 +10,6 @@
 	<title>xander's paradise</title>
 </svelte:head>
 
-{@render children()}
+<main>
+	{@render children()}
+</main>

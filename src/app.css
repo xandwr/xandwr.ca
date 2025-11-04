@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+body {
+    background-image: url("https://gifcity.carrd.co/assets/images/gallery128/13d961d9.png?v=e3c0bc0f");
+    background-size: 100vh;
+    image-rendering: pixelated;
+}
