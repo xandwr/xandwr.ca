@@ -1,7 +1,18 @@
 @import "tailwindcss";
 
+@keyframes starScroll {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100vh 100vh;
+    }
+}
+
 body {
     background-image: url("https://gifcity.carrd.co/assets/images/gallery128/13d961d9.png?v=e3c0bc0f");
     background-size: 100vh;
+    background-repeat: repeat;
     image-rendering: pixelated;
+    animation: starScroll 120s linear infinite;
 }
