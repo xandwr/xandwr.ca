@@ -10,5 +10,6 @@
     <h3 class="text-xl mt-8">my projects:</h3>
     <ul class="list-disc list-inside">
         <li class="text-blue-300 underline"><a href="https://wordgravity.xandwr.com/" target="_blank">Word Gravity</a></li>
+        <li class="text-blue-300 underline"><a href="https://www.doctown.dev/" target="_blank">Doctown</a></li>
     </ul>
 </div>
